@@ -1,0 +1,20 @@
+#contact-page {
+  @include topBottomSpacing(100px, 0);
+}
+
+.p-contact__list {
+  list-style: none;
+}
+
+.p-contact__icon,
+.p-contact__text {
+  color: $primary;
+}
+
+.newsletter {
+  background-color: map-get($grays, '200');
+}
+
+.p-newsletter__heading {
+  text-transform: capitalize;
+}

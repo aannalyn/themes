@@ -1,0 +1,22 @@
+footer {
+  background-color: $dark;
+  color: $light;
+  text-align: center;
+}
+
+.footer__copyright {
+  text-align: center;
+}
+
+.social__list {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0;
+}
+
+.social__item {
+  display: inline-block;
+  margin: 0 5px;
+}

@@ -1,0 +1,38 @@
+.c-navbar {
+  border-top: 5px solid $dark;
+  padding-top: 0;
+  padding-bottom: 0;  
+}
+
+.c-nav__logo {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-light {
+  .navbar-nav {
+
+    .c-nav__item {
+      margin-top: -5px;
+      padding-top:    1rem;
+      padding-bottom: 1rem;
+      border-top:    5px solid transparent;
+      border-bottom: 1px solid transparent;  
+      transition: 1s border-top, 1s border-bottom;
+    }
+
+    .c-nav__item--active {
+      border-top-color: $primary;
+      border-bottom-color: $primary;      
+
+      .c-nav__link {
+        color: $primary;
+      }
+
+    }
+  }
+}
+
+.c-nav__link {
+  color: $dark;
+}

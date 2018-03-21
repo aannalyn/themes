@@ -1,0 +1,12 @@
+#services-page {
+  @include topBottomSpacing(100px, 0);
+}
+
+.service__item {
+  text-align: center;
+  color: $light;
+
+  &:nth-child(even) { background-color: $primary; }
+  &:nth-child(odd) { background-color: $dark; }  
+
+}

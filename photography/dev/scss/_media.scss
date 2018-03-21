@@ -1,0 +1,62 @@
+
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 90%;
+  }
+
+  .home__details h1 { font-size: 5em; }
+  .home__details p { font-size: 3em; }
+
+  .toggle-btn {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+
+    &--show {
+      display: block;
+      position: absolute;
+      top: 70px;
+      width: 100%;
+      text-align: center;
+      background-color: rgba(65, 51, 56, .9);
+    }
+  }
+
+  .nav__list {
+    display: block;
+
+    &:hover, &--active { border-color: transparent #FFF; }
+  }
+
+  .service__item, 
+  .gallery__item {
+    width: 45%;
+  }
+
+  .contact__details { flex-direction: column; }
+
+  .contact__details-form { 
+    padding-right: 0; 
+    margin-bottom: 20px;
+  }
+
+  .contact__details-form,
+  .contact__details-map {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .home__details h1 { font-size: 4em; }
+  .home__details p { font-size: 2em; }
+
+  .service__item,
+  .gallery__item {
+    width: 100%;
+  }
+}
+
